@@ -1,0 +1,40 @@
+.add-task-container {
+  border-radius: 10px;
+  background: var(--secondary);
+  padding: 30px 20px;
+}
+.button-container {
+    margin: auto;
+    display: flex;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+.add-task-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 16px;
+}
+@media screen and (max-width: 950px) {
+  .button-container {
+    width: 90%;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 600px) {
+    .button-container {
+      width: 90%;
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 360px) {
+    .button-container {
+      width: 100%;
+    }
+}
+

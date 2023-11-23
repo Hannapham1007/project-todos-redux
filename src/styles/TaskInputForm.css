@@ -1,0 +1,16 @@
+.task-input-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.save-cancel-container{
+  width: 100%;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 10px;
+}

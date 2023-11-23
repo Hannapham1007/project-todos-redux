@@ -11,4 +11,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --white: #fff;
+  --textInputTask: #555555;
+  --textPlaceHolder: #dddddd;
+  --light-grey: #ebebeb;
+  --primary: #347c7f;
+  --secondary: rgba(255, 255, 255, 0.1);
+  --tertiary: rgba(255, 255, 255, 0.2);
+  background: var(--primary);
 }
+p{
+  color: var(--textInputTask);
+  font-weight:600;
+}
+.main-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 80%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 360px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
