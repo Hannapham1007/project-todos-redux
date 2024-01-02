@@ -1,21 +1,11 @@
-# Technigo React Starter App
-
-## Usage
-
-1. Fork and clone this repository to your computer
-2. Install required dependencies with npm: `npm install`
-3. Start the project: `npm run dev`
-
 # Project Todos
+A Todo app built with React and Redux to practice working with the Redux store, creating reducers, and actions.
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
-
-## The problem
-
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+# Project Requirements
+* The app should list all todo tasks - completed or uncompleted.
+* The app should be able to mark an uncompleted task as complete (and change it back to uncompleted).
+* The app should be able to add and remove tasks.
+* The app should show a count of either all todos or all uncompleted todos (or both).
 
 ## View it live
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://todaytaskss.netlify.app/
